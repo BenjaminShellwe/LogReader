@@ -9,6 +9,6 @@ class LinuxControllerTest {
     private static final Logger logger = LogManager.getLogger("HelloWorld");
     @Test
     void getConnect() {
-        logger.info("Hello, shellwe is trying coding logging！");
+        logger.info("Hello, shellwe is trying coding logging");
     }
 }
