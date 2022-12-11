@@ -34,7 +34,6 @@ public class WebSocketController {
     //与某个客户端的连接会话 需要通过它来给客户端发送数据
     private Session session;
 
-    Appender appender = new OutputStreamAppender();
     /**
      * 新的WebSocket请求开启
      * @param session 新请求的session记录
